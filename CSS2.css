@@ -1,0 +1,198 @@
+header, article, div, footer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+header {
+	border-bottom: 2px solid;
+}
+nav{
+	font-size:10px;
+}
+
+nav, label {
+	font-family: Helvetica, sans-serif;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(0,0,255);
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+p, li, blockquote, th, td, q, pre, dd, dt{
+	font-family: Georgia, serif;
+	font-size: large;
+	line-height: 145%;
+}
+
+h3{
+	letter-spacing: .2em;
+}
+
+h3, h4{
+	font-weight: 300;
+}
+
+p{
+	text-align: center;
+}
+
+caption{
+	text-transform: uppercase;
+}
+
+blockquote{
+	text-indent: 5%;
+}
+
+iframe, table{
+	margin:5% auto 5% auto;
+}
+
+table{
+	border-width: 1px;
+	border-color: #A8A8A7;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 10px 5px;
+}
+
+iframe{
+	max-width: 100%;
+	display: block;
+}
+
+footer{
+	border-top: 1px solid black;
+	margin: 5% auto 0 auto;
+	text-align: center;
+}
+
+address{
+	border-bottom: 1px solid black;
+	padding: 1% 0 1% 0;
+}
+
+article{
+	position: relative;
+}
+
+aside{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 3px dotted black;
+	padding: 10px;
+	box-sizing: border-box;
+	/*background-image: url("http://www.boulderdowntown.com/_files/images/tn_dbi-creek-fest2-web.jpg");*/
+	background-color: -webkit-linear-gradient(top, #EBEAE8, white);
+	border-radius: 100%;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 10%;
+	min-height: 10%;
+}
+
+textarea{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form{
+	text-align: center;
+	margin: 15px;
+}
+
+input {
+	min-width: 20%;
+}
+
+ol {
+	list-style: lower-greek;
+}
+
+ul {
+	list-style-type: none;
+	list-style-position: inside;
+	text-align: center;
+	padding-left: 0;
+}
+
+h5 {
+	visibility: collapse;
+}
+
+fieldset{
+	background: -webkit-linear-gradient(bottom, #EBEAE8, white);
+}
+
+button{
+	min-width: 25%;
+	min-height: 30px;
+}
+
+select {
+	float: right;
+	height: 100px;
+	width: 80px;
+}
+
+colgroup col {
+	background-color: #EBEAE8;
+}
+
+#trails {
+	background-image: url("http://www.clker.com/cliparts/c/a/f/2/5/O/runner-md.png");
+	background-position: 15% 100%;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	min-width: 75%;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#president{
+	background-image: url("http://fairfoodfight.com/wp-content/uploads/2011/01/presidential-seal.png");
+	background-repeat: no-repeat;
+	background-size: 8%;
+	background-position: 50% 20%;
+}
+
+#comments{
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 50%;
+}
+
+#comments p{
+	font-family: Helvetica, sans-serif;
+	text-align: right;
+	font-weight: 300;
+}
+
+white-space,
+vertical-align
+min-height, max-height, 
+overflow
+bottom, left, clear, z-index, 
+background-attachment
+list-style-image
